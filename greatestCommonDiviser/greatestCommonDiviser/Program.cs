@@ -10,7 +10,7 @@ namespace greatestCommonDiviser
     {
         public static void Main(string[] args)
         {
-            // this program uses euclidian methodology to calculate the greatest common divisor of two integers
+            // this program uses euclidean methodology to calculate the greatest common divisor of two integers
 
             // this section should be pretty familiar at this point, being the standard methods of user input we've used before
             Console.WriteLine("Welcome to the Eucliditron 5000");
@@ -76,7 +76,7 @@ namespace greatestCommonDiviser
             int diviser;
             int left = Math.Abs(a);
             int right = Math.Abs(b);
-            // this do while loop covers the euclidian algorithm for finding the greatest common divisor
+            // this do while loop covers the euclidean algorithm for finding the greatest common divisor
             // an indepth explanation of the algorithm can be found here: https://www.youtube.com/watch?time_continue=93&v=JUzYl1TYMcU&feature=emb_title
             do
             {
